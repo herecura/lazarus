@@ -1,0 +1,1 @@
+update_pkgver=$(wget -q -O- https://www.lazarus-ide.org/index.php?page=downloads | grep x86_64 | sed -ne 's/.*Lazarus%20\([0-9\.]\+\).*/\1/p')
